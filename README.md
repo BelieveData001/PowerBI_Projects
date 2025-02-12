@@ -1,8 +1,7 @@
-# PowerBI_Projects
 # Maintenance Schedule Dynamic Dashboard - README
 
 ## Overview
-The Maintenance Schedule Dynamic Dashboard provides an interactive visualization of maintenance activities based on key filters. This dashboard is designed to help users analyze maintenance schedules efficiently through various visual representations.
+The Maintenance Schedule Dynamic Dashboard provides an interactive visualization of maintenance activities based on key filters. This dashboard is designed to help users analyze maintenance schedules efficiently through various visual representations. Power Query has been used for the ETL process, including data transformation such as adding new columns, deleting empty columns, and removing duplicate records.
 
 ## Filters
 The dashboard allows users to refine data using the following filters:
@@ -19,6 +18,7 @@ The dashboard includes multiple visual representations for better insights:
 ### 1. Table
 - Displays detailed maintenance records.
 - Includes columns for team, status, outage type, equipment number, substation, and date.
+- Data has been refined by adding new columns, deleting empty columns, and removing duplicate records.
 
 ### 2. Pie Chart
 - Shows the distribution of maintenance activities based on a selected category.
@@ -43,5 +43,5 @@ The dashboard includes multiple visual representations for better insights:
 4. Make data-driven decisions based on the visualized reports.
 
 ## Conclusion
-This dashboard is an essential tool for maintenance teams to track, manage, and analyze scheduled activities efficiently. It enhances decision-making through interactive data visualizations and filtering options.
+This dashboard is an essential tool for maintenance teams to track, manage, and analyze scheduled activities efficiently. It enhances decision-making through interactive data visualizations and filtering options, with data processing handled via Power Query to ensure data integrity and accuracy.
 
